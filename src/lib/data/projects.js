@@ -1,7 +1,7 @@
-import withoutWarning from '$lib/assets/gallery/WithoutWarning.gif';
+/**import withoutWarning from '$lib/assets/gallery/WithoutWarning.gif';
 import reparations from '$lib/assets/gallery/Reparations.png';
 import priceTracker from '$lib/assets/gallery/PT_MAIN1.png';
-import voterGuide from '$lib/assets/gallery/voterguide2024.png';
+import voterGuide from '$lib/assets/gallery/voterguide2024.png';**/
 
 export const projects = [
     {
@@ -10,7 +10,7 @@ export const projects = [
     subtitle: "Data Visualization Tool",
     description: "Built using R and Svelte 5 to track cost of living across the top 100 U.S. metros, streamlining inflation reporting currently and historically.",
     tags: ["Svelte 5", "R", "Github","Layercake", "Layerchart"],
-    image: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/PT_MAIN.webp",
+    image: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/PT_MAIN1.webp",
     link: "https://price-tracker.data.abcotv.com/",
     year: "2025"
   },
@@ -41,7 +41,7 @@ export const projects = [
     subtitle: "Interactive Scrolly-Telling Investigation and National Broadcast Reporting",
     description: "Visualized the investigation that exposed smoke alarm failures in thousands of HUD housing complexes, prompting a federal overhaul of the inspection system.",
     tags: ["After Effects", "Illustrator", "Scrollytelling"],
-    image: withoutWarning,
+    image: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/WithoutWarning.webp",
     link: "https://dig.abclocal.go.com/wls/without-warning-chicago/index.html",
     award: "RTDNA Edward R. Murrow Award",
     year: "2022"

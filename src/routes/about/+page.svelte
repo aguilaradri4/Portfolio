@@ -3,7 +3,7 @@
   import Button from '$lib/components/Button.svelte';
   import TypingAnimation from '$lib/components/TypingAnimation.svelte';
   import { PDFViewer } from '@embedpdf/svelte-pdf-viewer';
-  import portrait from '$lib/assets/gallery/selfie-3.jpeg';
+
 </script>
 
 <div class="about-page">
@@ -11,7 +11,7 @@
     <!-- Left: portrait -->
     <div class="portrait-wrapper">
       <div class="portrait-frame">
-        <img src={portrait} alt="Adriana Paola Aguilar" />
+        <img src="https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/selfie-3.webp" alt="Adriana Paola Aguilar" />
       </div>
     </div>
 

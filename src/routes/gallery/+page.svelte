@@ -3,7 +3,7 @@
   import Button from '$lib/components/Button.svelte';
   import Zoom from 'svelte-medium-image-zoom';
   import 'svelte-medium-image-zoom/dist/styles.css';
-  import gallery1 from '$lib/assets/gallery/Critical Mind Logo.png';
+  /**import gallery1 from '$lib/assets/gallery/Critical Mind Logo.png';
   import gallery2 from '$lib/assets/gallery/Critical Mind_1.png';
   import gallery3 from '$lib/assets/gallery/Critical Mind_2.png';
   import gallery4 from '$lib/assets/gallery/Critical Mind_3.png';
@@ -24,43 +24,43 @@
   import art6 from '$lib/assets/gallery/illustration/art6.png';
   import art7 from '$lib/assets/gallery/illustration/art7.png';
   import art8 from '$lib/assets/gallery/illustration/art8.png';
-  import art9 from '$lib/assets/gallery/illustration/art9.png';
-  import art10 from '$lib/assets/gallery/illustration/art10.jpg';
-  import art11 from '$lib/assets/gallery/illustration/art11.png';
-  import art12 from '$lib/assets/gallery/illustration/art12.jpg';
-  import art13 from '$lib/assets/gallery/GRIEF4 1.gif';
-  import art14 from '$lib/assets/gallery/DATA_ANIM.gif';
+  import art9 from '$lib/assets/gallery/illustration/art9.png'; -->
+  //import art10 from '$lib/assets/gallery/illustration/art10.jpg';
+  //import art11 from '$lib/assets/gallery/illustration/art11.png';
+  //import art12 from '$lib/assets/gallery/illustration/art12.jpg';
+  //import art13 from '$lib/assets/gallery/GRIEF4 1.gif';
+  //import art14 from '$lib/assets/gallery/DATA_ANIM.gif';**/
 
   
   const galleryItems = [
-    { src: gallery1, label: 'Data Viz', span: 'col-span-2 row-span-2' },
-    { src: gallery2, label: 'Data Viz', span: '' },
-    { src: gallery3, label: 'Data Viz', span: '' },
-    { src: gallery4, label: 'Data Viz', span: 'col-span-2' },
-    { src: gallery5, label: 'Data Viz', span: '' },
-    { src: gallery6, label: 'Data Viz', span: '' },
-    { src: gallery7, label: 'Data Viz', span: '' },
-    { src: gallery8, label: 'Data Viz', span: '' },
-    {src: gallery9, label: 'Intro', span: 'col-span-2' },
-    { src: gallery10, label: 'Book Cover', span: '' },
-    { src: gallery11, label: 'Invite', span: '' },
-    { src: gallery12, label: 'Historical', span: '' },
-    { src: gallery13, label: 'Illustration', span: '' },
-    { src: art1, label: 'Illustration', span: '' },
-    { src: art2, label: 'Illustration', span: '' },
-    { src: art3, label: 'Illustration', span: '' },
-    { src: art4, label: 'Illustration', span: 'row-span-2' },
-    { src: art5, label: 'Illustration', span: '' },
-    { src: art6, label: 'Illustration', span: '' },
-    { src: art7, label: 'Illustration', span: '' },
-    { src: art13, label: 'Mograph', span: '' },
-    { src: art8, label: 'Illustration', span: 'row-span-2' },
-    { src: art9, label: 'Illustration', span: '' },
-    { src: art11, label: 'Illustration', span: '' },
-    { src: art12, label: 'Illustration', span: 'row-span-2' },
-    { src: art10, label: 'Illustration', span: 'col-span-2 row-span-2' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/Critical Mind_1.webp" , label: 'Data Viz', span: 'col-span-2 row-span-2' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/Critical Mind_2.webp", label: 'Data Viz', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/Critical Mind_3.webp" , label: 'Data Viz', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/Critical Mind_4.webp" , label: 'Data Viz', span: 'col-span-2' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/Critical Mind_5.webp" , label: 'Data Viz', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/Critical Mind_6.webp" , label: 'Data Viz', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/Critical Mind_7.webp" , label: 'Data Viz', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/image (1).webp" , label: 'Data Viz', span: '' },
+    {src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/horiz_our_american_pride_in_history__1_.webp" , label: 'Intro', span: 'col-span-2' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/NAATV_2024_COVER.webp" , label: 'Book Cover', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/wls_invite_hhm.webp" , label: 'Invite', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/vlcsnap-2024-11-19-19h48m58s184.webp" , label: 'Historical', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/Dnd.webp", label: 'Illustration', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/illustration/art1.webp" , label: 'Illustration', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/illustration/art2.webp" , label: 'Illustration', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/illustration/art3.webp" , label: 'Illustration', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/illustration/art12.webp" , label: 'Illustration', span: 'row-span-2' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/illustration/art6.webp" , label: 'Illustration', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/illustration/art7.webp" , label: 'Illustration', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/illustration/art8.webp" , label: 'Illustration', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/illustration/art9.webp" , label: 'Mograph', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/illustration/art4.webp" , label: 'Illustration', span: 'row-span-2' },
+    { src: "https://raw.githubusercontent.com/aguilaradri4/Portfolio/main/src/lib/assets/gallery/DATA_ANIM.webp" , label: 'Data Viz', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/illustration/art11.webp" , label: 'Illustration', span: '' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/illustration/art5.webp" , label: 'Illustration', span: 'row-span-2' },
+    { src: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/illustration/art10.webp" , label: 'Illustration', span: 'col-span-2 row-span-2' },
     
-    { src: art14, label: 'Mograph', span: ''}
+    { src: "https://raw.githubusercontent.com/aguilaradri4/Portfolio/main/src/lib/assets/gallery/GRIEF4 1.webp" , label: 'Mograph', span: ''}
    
   ];
 </script>
@@ -236,12 +236,12 @@
     min-height: 100% !important;
 }
 
-.bento-item img[src$=".gif"]{
+.bento-item img[src$="GRIEF4 1.webp"], .bento-item img[src$="DATA_ANIM.webp"]{
 transform: scale(1.2);
     
   }
 
-.bento-item img[src$=".gif"]:hover{
+.bento-item img[src$="GRIEF4 1.webp"]:hover,.bento-item img[src$="DATA_ANIM.webp"]:hover{
 transform: scale(1.3);
     
   }

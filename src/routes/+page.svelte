@@ -4,12 +4,12 @@
   import ProjectCard from '$lib/components/ProjectCard.svelte';
   import { projects } from '$lib/data/projects.js';
   import { YouTube } from 'sveltekit-embed';
-  import gallery from '$lib/assets/gallery/GRIEF4 1.gif';
+  /**import gallery from '$lib/assets/gallery/Critical Mind Logo.webp';
   import art1 from '$lib/assets/gallery/illustration/art1.png';
   import art2 from '$lib/assets/gallery/Critical Mind_2.png';
   import art3 from '$lib/assets/gallery/NAATV_2024_COVER.png';
   import art5 from '$lib/assets/gallery/horiz_our_american_pride_in_history__1_.png';
-  import art13 from '$lib/assets/gallery/DATA_ANIM.gif';
+  import art13 from '$lib/assets/gallery/DATA_ANIM.gif';**/
 	import BackToTop from '$lib/components/BackToTop.svelte';
 </script>
 
@@ -82,28 +82,28 @@
       <!-- gallery items -->
        <!--<a href="https://youtu.be/T2pnYVmAU6c" class="gallery-link">-->
       <div class="gallery-item"> 
-        <img  src={art13} alt="Motion Graphics Reel" />
+        <img  src= "https://raw.githubusercontent.com/aguilaradri4/Portfolio/main/src/lib/assets/gallery/DATA_ANIM.webp" alt="Motion Graphics Reel" />
         <span class="gallery-label">Motion Graphics</span>
       </div>
 
       <div class="gallery-item">
-        <img src= {gallery} alt="My First Valentine" />
+        <img src= "https://raw.githubusercontent.com/aguilaradri4/Portfolio/main/src/lib/assets/gallery/GRIEF4 1.webp" alt="My First Valentine" />
         <span class="gallery-label">Illustration/Motion Graphics</span>
       </div>
       <div class="gallery-item">
-        <img src={art1} alt="Project thumbnail" />
+        <img src="https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/illustration/art1.webp" alt="Project thumbnail" />
         <span class="gallery-label">Illustration</span>
       </div>
       <div class="gallery-item">
-        <img src={art5} alt="Project thumbnail" />
+        <img src="https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/horiz_our_american_pride_in_history__1_.webp" alt="Project thumbnail" />
         <span class="gallery-label">Intro</span>
       </div>
       <div class="gallery-item">
-        <img src={art2} alt="Project thumbnail" />
+        <img src="https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/Critical Mind_1.webp" alt="Project thumbnail" />
         <span class="gallery-label">Data Viz</span>
       </div>
       <div class="gallery-item">
-        <img src={art3} alt="Project thumbnail" />
+        <img src="https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/NAATV_2024_COVER.webp" alt="Project thumbnail" />
         <span class="gallery-label">Design</span>
       </div>
     </div>
@@ -235,7 +235,7 @@
     background: rgba(255, 255, 255, 0.03);
     aspect-ratio: 1 / 1; /* Keeps it square */
   }
-   .gallery-item img[src$=".gif"] {
+   .gallery-item img[src$="GRIEF4 1.webp"], img[src$="DATA_ANIM.webp"] {
     width: 100% !important;
     height: 100% !important;
     top: 0%;
@@ -248,7 +248,8 @@
     min-width: 100% !important;
     min-height: 100% !important;
   }
-  .gallery-item img[src$=".gif"]:hover {
+
+  .gallery-item img[src$="GRIEF4 1.webp"]:hover, .gallery-item img[src$="DATA_ANIM.webp"]:hover {
   transform: scale(1.3);
 
   }
