@@ -1,7 +1,7 @@
-import withoutWarning from '$lib/assets/WithoutWarning.gif';
-import reparations from '$lib/assets/Reparations.png';
-import priceTracker from '$lib/assets/PT_MAIN1.png';
-import voterGuide from '$lib/assets/voterguide2024.png';
+import withoutWarning from '$lib/assets/gallery/WithoutWarning.gif';
+import reparations from '$lib/assets/gallery/Reparations.png';
+import priceTracker from '$lib/assets/gallery/PT_MAIN1.png';
+import voterGuide from '$lib/assets/gallery/voterguide2024.png';
 
 export const projects = [
     {
@@ -10,7 +10,7 @@ export const projects = [
     subtitle: "Data Visualization Tool",
     description: "Built using R and Svelte 5 to track cost of living across the top 100 U.S. metros, streamlining inflation reporting currently and historically.",
     tags: ["Svelte 5", "R", "Github","Layercake", "Layerchart"],
-    image: priceTracker,
+    image: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/PT_MAIN.webp",
     link: "https://price-tracker.data.abcotv.com/",
     year: "2025"
   },
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "Helping Voters Make Sense of Their Local Elections",
     description: "Built using Javascript, HTML and CSS as well as Bootstrap to help voters find information in a more streamlined manner about important dates, candidates, polling places, bills and more.",
     tags: ["Javascript", "CSS", "HTML", "Illustrator", "Bootstrap"],
-    image: voterGuide,
+    image: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/voterguide2024.webp",
     link: "https://abc7chicago.com/feature/post/voter-guide-2024-illinois-indiana-wisconsin/15435667/",
     year: "2024"
   },
@@ -30,7 +30,7 @@ export const projects = [
     subtitle: "Emmy-Winning Documentary",
     description: "Created explainer and data visuals for an Emmy-winning documentary on the nation's first state-level reparations task force and California's approach to reparations.",
     tags: ["Adobe After Effects", "Adobe Illustrator", "Post-Production"],
-    image: reparations,
+    image: "https://cdn.jsdelivr.net/gh/aguilaradri4/Portfolio/src/lib/assets/gallery/Reparations.webp",
     link: "https://www.youtube.com/watch?v=oTLXrT_ncw8",
     award: "Emmy Winner",
     year: "2025"

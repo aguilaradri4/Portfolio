@@ -4,7 +4,7 @@
   import ProjectCard from '$lib/components/ProjectCard.svelte';
   import { projects } from '$lib/data/projects.js';
   import { YouTube } from 'sveltekit-embed';
-  import gallery from '$lib/assets/GRIEF4 1.gif';
+  import gallery from '$lib/assets/gallery/GRIEF4 1.gif';
   import art1 from '$lib/assets/gallery/illustration/art1.png';
   import art2 from '$lib/assets/gallery/Critical Mind_2.png';
   import art3 from '$lib/assets/gallery/NAATV_2024_COVER.png';

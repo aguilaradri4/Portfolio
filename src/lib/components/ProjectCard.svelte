@@ -3,7 +3,7 @@
   let { project } = $props();
 </script>
 
-<a href="/work/{project.slug}" class="project-card">
+<a href="{project.link}" class="project-card">
   <div class="card-image">
     <img src={project.image} alt={project.title} />
     {#if project.award}
@@ -11,6 +11,7 @@
     {/if}
   </div>
   <div class="card-content">
+    
     <h3>{project.title}</h3>
     <p>{project.subtitle || project.description}</p>
     <div class="tags">

@@ -3,7 +3,7 @@
   import Button from '$lib/components/Button.svelte';
   import TypingAnimation from '$lib/components/TypingAnimation.svelte';
   import { PDFViewer } from '@embedpdf/svelte-pdf-viewer';
-  import portrait from '$lib/assets/selfie-3.jpeg';
+  import portrait from '$lib/assets/gallery/selfie-3.jpeg';
 </script>
 
 <div class="about-page">

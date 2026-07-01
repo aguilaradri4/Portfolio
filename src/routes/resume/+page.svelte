@@ -1,7 +1,7 @@
 <!-- src/routes/resume/+page.svelte -->
 <script>
   import { PDFViewer } from '@embedpdf/svelte-pdf-viewer';
-  import resume from '$lib/assets/Adriana_Aguilar_Resume_2026.pdf';
+  import resume from '$lib/assets/gallery/Adriana_Aguilar_Resume_2026.pdf';
   import Button from '$lib/components/Button.svelte';
 </script>
 

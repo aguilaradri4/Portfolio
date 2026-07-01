@@ -28,7 +28,7 @@
   import art10 from '$lib/assets/gallery/illustration/art10.jpg';
   import art11 from '$lib/assets/gallery/illustration/art11.png';
   import art12 from '$lib/assets/gallery/illustration/art12.jpg';
-  import art13 from '$lib/assets/GRIEF4 1.gif';
+  import art13 from '$lib/assets/gallery/GRIEF4 1.gif';
   import art14 from '$lib/assets/gallery/DATA_ANIM.gif';
 
   
